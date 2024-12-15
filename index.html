@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -23,8 +23,369 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header"></header>
-    <main class="main"></main>
+    <header class="header">
+      <div class="header-wrapper container">
+        <nav class="header-nav">
+          <a href="index.html" class="header-logo"
+            ><span class="header-logo-item">SIMPLY</span>&nbspCHOCOLATE&nbsp<svg
+              class="logo-icon"
+              width="21"
+              height="24"
+            >
+              <use href="./images/icons.svg#logo-icon"></use></svg
+          ></a>
+
+          <div class="header-list-wrapper">
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a href="" class="header-nav-link">Home</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="" class="header-nav-link">How it’s made?</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="" class="header-nav-link">Chocolate is loved</a>
+              </li>
+            </ul>
+
+            <ul class="header-soc-list">
+              <li class="header-soc-item">
+                <a href="" class="header-soc-link">
+                  <svg class="header-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#face-book-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-soc-item">
+                <a href="" class="header-soc-link">
+                  <svg class="header-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#instagram-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-soc-item">
+                <a href="" class="header-soc-link">
+                  <svg class="header-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#twitter-icon"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <button type="button" class="burger-btn">
+          <svg class="header-menu-btn" width="28" height="28">
+            <use href="./images/icons.svg#burger-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero container">
+        <div class="hero-wrapper">
+          <h1 class="hero-title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+          <div class="hero-btn-wrapper">
+            <button type="button" class="hero-buy-btn">Buy now</button>
+            <a href="#" class="hero-made-btn">How it’s made</a>
+            <div class="scroll-btn-wrapper">
+              <a href="#footer" class="hero-scroll-btn"
+                >scroll down<span class="scroll-btn">
+                  <svg class="scroll-btn-icon" width="12" height="8">
+                    <use href="./images/icons.svg#scroll-icon"></use>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="benefits-wrapper container">
+          <h2 class="benefits-title visually-hidden">Benefits</h2>
+          <ul class="benefits-list">
+            <li class="benefits-item">
+              <span class="benefits-logo"
+                ><svg class="benefits-icon" width="28" height="28">
+                  <use href="./images/icons.svg#chocolate-icon"></use></svg
+              ></span>
+              <h3 class="benefits-item-title">Unsurpassed taste</h3>
+              <p class="benefits-item-text">
+                Crafted with the finest quality cocoa beans and a dedication to
+                perfection, each bite is a decadent experience that simply
+                cannot be matched. Savor the richness and complexity of our
+                Unsurpassed Taste and discover a new level of chocolate bliss.
+              </p>
+            </li>
+            <span class="benefits-line"></span>
+            <li class="benefits-item">
+              <span class="benefits-logo"
+                ><svg class="benefits-icon" width="28" height="28">
+                  <use href="./images/icons.svg#dollar-icon"></use></svg
+              ></span>
+              <h3 class="benefits-item-title">Affordable price</h3>
+              <p class="benefits-item-text">
+                Indulge in high-quality chocolate without breaking the bank with
+                Simply Chocolate's selection of affordable treats. Enjoy
+                mouth-watering truffles and velvety chocolate bars without
+                sacrificing taste or quality. Browse our selection and indulge
+                in affordable luxury today.
+              </p>
+            </li>
+            <span class="benefits-line"></span>
+            <li class="benefits-item">
+              <span class="benefits-logo"
+                ><svg class="benefits-icon" width="28" height="28">
+                  <use href="./images/icons.svg#spoon-icon"></use></svg
+              ></span>
+              <h3 class="benefits-item-title">Own production</h3>
+              <p class="benefits-item-text">
+                We take pride in our own production process, ensuring that every
+                step is carefully crafted to perfection. From selecting the
+                finest ingredients to handcrafting each piece, our attention to
+                detail is evident in every bite.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="ingridients">
+        <div class="ingridients-wrapper container">
+          <h2 class="ingridients-title">
+            It all adds up to one exceptional
+            <span class="ingridients-title-item">taste</span> sensation
+          </h2>
+          <ul class="ingridients-list">
+            <li class="ingridients-list-item">
+              <div class="ingridients-item-wrapper">
+                <svg class="ingridients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow-icon"></use>
+                </svg>
+                <picture class="ingridients-photo">
+                  <source
+                    srcset="
+                      ./images/ingridients/chocolate.png         1x,
+                      ./images/ingridients/chocolate-desc@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/chocolate-mob-tab.png    1x,
+                      ./images/ingridients/chocolate-mob-tab@2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/chocolate-mob-tab.png    1x,
+                      ./images/ingridients/chocolate-mob-tab@2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img src="./images/chocolate.png" alt="milk chocolate" />
+                </picture>
+                <p class="ingridients-descr">MILK CHOCOLATE</p>
+              </div>
+            </li>
+            <li class="ingridients-list-item">
+              <div class="ingridients-item-wrapper">
+                <svg class="ingridients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow-icon"></use>
+                </svg>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/ingridients/milk.png         1x,
+                      ./images/ingridients/milk-desc@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/milk-mob-tab.png    1x,
+                      ./images/ingridients/milk-mob-tab@2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/milk-mob-tab.png    1x,
+                      ./images/ingridients/milk-mob-tab@2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img src="./images/milk.png" alt="milk" />
+                </picture>
+                <p class="ingridients-descr">MILK</p>
+              </div>
+            </li>
+            <li class="ingridients-list-item">
+              <div class="ingridients-item-wrapper">
+                <svg class="ingridients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow-icon"></use>
+                </svg>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/ingridients/nuts.png         1x,
+                      ./images/ingridients/nuts-desc@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/nuts-mob-tab.png    1x,
+                      ./images/ingridients/nuts-mob-tab@2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/nuts-mob-tab.png    1x,
+                      ./images/ingridients/nuts-mob-tab@2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img src="./images/nuts.png" alt="nuts" />
+                </picture>
+                <p class="ingridients-descr">NUTS</p>
+              </div>
+            </li>
+            <li class="ingridients-list-item">
+              <div class="ingridients-item-wrapper">
+                <svg class="ingridients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow-icon"></use>
+                </svg>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/ingridients/sweet-chocolate.png         1x,
+                      ./images/ingridients/sweet-chocolate-desc@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/sweet-chocolate-mob-tab.png    1x,
+                      ./images/ingridients/sweet-chocolate-mob-tab@2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/sweet-chocolate-mob-tab.png    1x,
+                      ./images/ingridients/sweet-chocolate-mob-tab@2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/sweet-chocolate.png"
+                    alt="sweet chocolate"
+                  />
+                </picture>
+                <p class="ingridients-descr">SEMI - SWEET CHOCOLATE</p>
+              </div>
+            </li>
+            <li class="ingridients-list-item">
+              <div class="ingridients-item-wrapper">
+                <svg class="ingridients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow-icon"></use>
+                </svg>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/ingridients/cacao.png         1x,
+                      ./images/ingridients/cacao-desc@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/cacao-mob-tab.png    1x,
+                      ./images/ingridients/cacao-mob-tab@2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/cacao-mob-tab.png    1x,
+                      ./images/ingridients/cacao-mob-tab@2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img src="./images/cacao.png" alt="cacao" />
+                </picture>
+                <p class="ingridients-descr">CACAO</p>
+              </div>
+            </li>
+            <li class="ingridients-list-item">
+              <div class="ingridients-item-wrapper">
+                <svg class="ingridients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow-icon"></use>
+                </svg>
+                <picture>
+                  <source
+                    srcset="./images/ingridients/raspberry.png ./images/ingridients/raspberry-desc@2x.png 2x"
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/raspberry-mob-tab.png    1x,
+                      ./images/ingridients/raspberry-mob-tab@2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/raspberry-mob-tab.png    1x,
+                      ./images/ingridients/raspberry-mob-tab@2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img src="./images/raspberry.png" alt="raspberry" />
+                </picture>
+                <p class="ingridients-descr">RASPBERRY</p>
+              </div>
+            </li>
+            <li class="ingridients-list-item">
+              <div class="ingridients-item-wrapper">
+                <svg class="ingridients-icon" width="24" height="24">
+                  <use href="./images/icons.svg#arrow-icon"></use>
+                </svg>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/ingridients/coconut.png         1x,
+                      ./images/ingridients/coconut-desc@2x.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/coconut-mob-tab.png    1x,
+                      ./images/ingridients/coconut-mob-tab@2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/ingridients/coconut-mob-tab.png    1x,
+                      ./images/ingridients/coconut-mob-tab@2x.png 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img src="./images/coconut.png" alt="coconut" />
+                </picture>
+                <p class="ingridients-descr">COCONUT OIL</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <footer class="footer"></footer>
   </body>
 </html>

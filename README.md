@@ -1,1 +1,1 @@
-# goit-markup-hw-01
+# team-15-individual-practice
